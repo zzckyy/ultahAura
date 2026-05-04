@@ -32,7 +32,10 @@
 html{
     overflow: hidden;
     background-color: var(--bg);
+    margin: 0px;
+    padding: 0px;
     
+}
 
 .hero{
     min-height: 100vh;
@@ -64,8 +67,8 @@ html{
 }
 
 .teks-atas{
-    color: var(--muted-text);
-    font-size: 0.7rem;
+    color: var(--muted-text) !important;
+    font-size: 0.7rem !important;
 }
 
 .teks-countdown{
