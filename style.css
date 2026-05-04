@@ -1,11 +1,33 @@
 :root{
-    --bg: #000814;
-    --p1: #001d3d;
-    --p2: #003566;
-    --p3: #ffc300;
-    --p4: #ffd60a;
+    --bg: #1c1b1b;
+    --primary: #cab049;
     --text: white;
+    --muted: #363636;
+    --muted-text: rgb(167, 167, 167);
 }
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 
+    3px 3px 12px var(--primary);
+}
+
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 html{
     overflow: hidden;
@@ -30,8 +52,26 @@ html{
     color: var(--text) !important;
 }
 
+.bxf{
+    color: var(--primary) !important;
+    text-shadow: 
+    0 0 100px var(--primary);
+}
+
 .gambar{
     width: 10dvh;
+    
+}
+
+.teks-atas{
+    color: var(--muted-text);
+    font-size: 0.7rem;
+}
+
+.teks-countdown{
+    
+    border-top: 4px solid var(--primary);
+    color: var(--muted-text);
 }
 
 /* css countdown */
@@ -40,8 +80,11 @@ html{
         /* Main countdown container */
         
         background-color: var(--p4);
-        border-radius: 16px;
+        /* border-radius: 16px; */
         min-width: 30dvh;
+        border-bottom: 4px solid var(--primary);
+        margin-top: 0px;
+        border-top: 4px solid var(--primary);
 
     }
 
@@ -59,13 +102,16 @@ html{
 
     .custom-countdown-theme > .simply-section > div {
         /* Inner container for amount and word */
+        /* border-left: thin solid var(--muted); */
+        /* border-right: thin solid var(--muted); */
+        padding: 6px;
     }
 
     .custom-countdown-theme > .simply-section .simply-amount,
     .custom-countdown-theme > .simply-section .simply-word {
         /* Common styles for numbers and labels */
         font-weight: bold;
-        color: var(--p2);
+        
         display: flex;
         flex-direction: column;
     }
@@ -73,10 +119,17 @@ html{
     .custom-countdown-theme > .simply-section .simply-amount {
         /* Number display */           
         /* color: var(--);  */
+        color: var(--primary);
+        font-size: 3rem;
+        font-weight: normal;
+        font-family: "Inter", sans-serif;
+        
     }
 
     .custom-countdown-theme > .simply-section .simply-word {
         /* Label text */              
-        /* color: var(--); */
-    }  
-                        
+        color: var(--muted-text);
+        /* font-family: "Cutive Mono", monospace; */
+        font-family: "Forum", serif;
+        font-weight: normal;
+    }
