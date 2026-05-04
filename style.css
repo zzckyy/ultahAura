@@ -92,22 +92,16 @@ html{
     }
 
     .custom-countdown-theme > .simply-section {
-        /* Individual time unit blocks */
-        /* background-color: rgb(255, 255, 255); */
         text-align: center;
-        /* height: 5dvh; */
-        padding: 12px;
-        /* border-radius: 16px; */
-        /* box-shadow: 0px 6px 6px rgba(2, 0, 31, 0.5); */
-        
-        
+        padding: 6px;
+        width: 8dvh;      
     }
 
     .custom-countdown-theme > .simply-section > div {
         /* Inner container for amount and word */
         /* border-left: thin solid var(--muted); */
         /* border-right: thin solid var(--muted); */
-        padding: 6px;
+        /* padding: 6px; */
     }
 
     .custom-countdown-theme > .simply-section .simply-amount,
@@ -123,7 +117,7 @@ html{
         /* Number display */           
         /* color: var(--);  */
         color: var(--primary);
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: normal;
         font-family: "Inter", sans-serif;
         
