@@ -51,14 +51,34 @@ html{
     border-radius: 24px;
 }
 
+.glowing{
+    text-shadow: 
+    0px 0px 30px var(--primary) !important;
+}
+
+.teks-shadow{
+    text-shadow: 
+    2px 2px 0px black !important;
+}
+
 .teks{
     color: var(--text) !important;
 }
 
-.bxf{
+audio{
+    display: none;
+}
+
+.bxf, .bx{
     color: var(--primary) !important;
     text-shadow: 
     0 0 100px var(--primary);
+}
+
+strong{
+    color: var(--primary);
+    font-weight: bolder;
+    /* font-family: "Inter", sans-serif; */
 }
 
 .gambar{
@@ -68,13 +88,21 @@ html{
 
 .teks-atas{
     color: var(--muted-text) !important;
-    font-size: 0.7rem !important;
+    font-size: 1rem !important;
 }
 
 .teks-countdown{
     
     border-top: 4px solid var(--primary);
     color: var(--muted-text);
+}
+
+.teks-warna{
+    color: var(--primary);
+}
+
+.ucapan{
+    width: 50dvh;
 }
 
 /* css countdown */
