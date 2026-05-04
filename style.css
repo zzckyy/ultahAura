@@ -58,7 +58,7 @@ html{
 
 .teks-shadow{
     text-shadow: 
-    2px 2px 0px black !important;
+    2px 2px 6px black !important;
 }
 
 .teks{
@@ -82,7 +82,7 @@ strong{
 }
 
 .gambar{
-    width: 10dvh;
+    width: 10%;
     
 }
 
@@ -102,7 +102,7 @@ strong{
 }
 
 .ucapan{
-    width: 40dvh;
+    /* width: 40dvh; */
 }
 
 /* css countdown */
